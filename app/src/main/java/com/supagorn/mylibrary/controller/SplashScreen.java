@@ -7,14 +7,13 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.supagorn.mylibrary.MainActivity;
 import com.supagorn.mylibrary.R;
 
 /**
  * Created by iabellah on 2016-04-25.
  */
 public class SplashScreen extends Activity {
-    private static int splashInterval = 1000;
+    private static int splashInterval = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +26,8 @@ public class SplashScreen extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // TODO Auto-generated method stub
-                Intent i;
-                    i = new Intent(SplashScreen.this, MainActivity.class);
-                    startActivity(i);
-                //jeda selesai Splashscreen
+                Intent i = new Intent(SplashScreen.this, MainActivity.class);
+                startActivity(i);
                 finish();
             }
         }, splashInterval);
