@@ -26,6 +26,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 
+        <activity
+            android:name=".controller.SelectImageGallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopupActivityTheme" />
+
     </application>
 
 </manifest>

@@ -6,6 +6,6 @@
     <string-array name="title">
         <item>My toast</item>
         <item>Custom dialog</item>
-        <item>Tab host</item>
+        <item>Select image gallery</item>
     </string-array>
 </resources>

@@ -57,17 +57,19 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onItemClick(View view, int position) {
                                 // int position = (Integer) rv.getTag();
+                                Intent intent;
                                 switch (position) {
                                     case 0:
                                         MyToast myToast = new MyToast();
                                         myToast.showToast(mContext, "Preview toast");
                                         break;
                                     case 1:
-                                        Intent intent = new Intent(mContext, SampleAlertDialog.class);
+                                        intent = new Intent(mContext, SampleAlertDialog.class);
                                         startActivity(intent);
                                         break;
                                     case 2:
-
+                                        intent = new Intent(mContext, SelectImageGallery.class);
+                                        startActivity(intent);
                                         break;
                                 }
                             }
