@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, RetrofitActivity.class);
                                         startActivity(intent);
                                         break;
+                                    case 5:
+                                        intent = new Intent(mContext, SendEmailActivity.class);
+                                        startActivity(intent);
+                                        break;
 
                                     default:
                                         break;

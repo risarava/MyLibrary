@@ -2,6 +2,9 @@
     <string name="app_name">MyLibrary</string>
     <string name="facebook_app_id">1746079125672897</string>
     <string name="preview">Preview</string>
+    <string name="send_mail_button">Click hear to send email</string>
+    <string name="send_to_email">Send to email</string>
+    <string name="email_wrong">Please check your email</string>
 
     <!-- Title  -->
     <string-array name="title">
@@ -10,5 +13,6 @@
         <item>Select image gallery</item>
         <item>Facebook</item>
         <item>Retrofit github</item>
+        <item>Send email</item>
     </string-array>
 </resources>
