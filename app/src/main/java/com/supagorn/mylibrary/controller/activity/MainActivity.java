@@ -75,6 +75,13 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, FacebookActivity.class);
                                         startActivity(intent);
                                         break;
+                                    case 4:
+                                        intent = new Intent(mContext, RetrofitActivity.class);
+                                        startActivity(intent);
+                                        break;
+
+                                    default:
+                                        break;
                                 }
                             }
 

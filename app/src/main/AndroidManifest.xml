@@ -37,6 +37,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 
+        <activity
+            android:name=".controller.activity.RetrofitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopupActivityTheme" />
+
         <activity android:name="com.facebook.FacebookActivity"
             android:label="@string/app_name" />
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
