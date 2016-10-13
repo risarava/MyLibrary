@@ -71,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, SelectImageGallery.class);
                                         startActivity(intent);
                                         break;
+                                    case 3:
+                                        intent = new Intent(mContext, FacebookActivity.class);
+                                        startActivity(intent);
+                                        break;
                                 }
                             }
 

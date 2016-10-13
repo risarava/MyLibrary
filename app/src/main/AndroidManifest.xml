@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.supagorn.mylibrary">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
+        android:name=".controller.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -31,6 +32,14 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 
+        <activity
+            android:name=".controller.FacebookActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopupActivityTheme" />
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:label="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
     </application>
 
 </manifest>
