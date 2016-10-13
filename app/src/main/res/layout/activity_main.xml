@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@color/grey"
-    tools:context="com.supagorn.mylibrary.controller.MainActivity">
+    tools:context="com.supagorn.mylibrary.controller.activity.MainActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycleview"

@@ -10,7 +10,7 @@
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".controller.SplashScreen">
+        <activity android:name=".controller.activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,21 +19,21 @@
         </activity>
 
         <activity
-            android:name=".controller.MainActivity"
+            android:name=".controller.activity.MainActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name=".controller.SampleAlertDialog"
+            android:name=".controller.activity.SampleAlertDialog"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 
         <activity
-            android:name=".controller.SelectImageGallery"
+            android:name=".controller.activity.SelectImageGallery"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 
         <activity
-            android:name=".controller.FacebookActivity"
+            android:name=".controller.activity.FacebookActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.PopupActivityTheme" />
 

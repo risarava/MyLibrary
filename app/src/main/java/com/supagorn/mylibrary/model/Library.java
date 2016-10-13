@@ -1,4 +1,4 @@
-package com.supagorn.mylibrary.data;
+package com.supagorn.mylibrary.model;
 
 /**
  * Created by iabellah on 2016-10-10.

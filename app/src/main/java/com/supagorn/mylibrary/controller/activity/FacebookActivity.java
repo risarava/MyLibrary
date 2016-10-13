@@ -1,4 +1,4 @@
-package com.supagorn.mylibrary.controller;
+package com.supagorn.mylibrary.controller.activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,7 +11,7 @@ import com.facebook.FacebookException;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
 import com.supagorn.mylibrary.R;
-import com.supagorn.mylibrary.model.FacebookManager;
+import com.supagorn.mylibrary.manager.FacebookManager;
 import com.supagorn.mylibrary.ui.CustomDisplaySize;
 
 /**

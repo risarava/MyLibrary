@@ -1,4 +1,4 @@
-package com.supagorn.mylibrary.controller;
+package com.supagorn.mylibrary.controller.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,7 @@ import android.view.View;
 
 import com.supagorn.mylibrary.R;
 import com.supagorn.mylibrary.adapter.RecyclerViewAdapter;
-import com.supagorn.mylibrary.data.Library;
+import com.supagorn.mylibrary.model.Library;
 import com.supagorn.mylibrary.ui.MyToast;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.supagorn.mylibrary.model;
+package com.supagorn.mylibrary.manager;
 
 import android.app.Activity;
 import android.net.Uri;

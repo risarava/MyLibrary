@@ -1,4 +1,4 @@
-package com.supagorn.mylibrary.controller;
+package com.supagorn.mylibrary.controller.activity;
 
 import android.app.Activity;
 import android.content.Context;
