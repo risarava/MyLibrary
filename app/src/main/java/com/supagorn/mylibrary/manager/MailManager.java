@@ -15,7 +15,8 @@ import javax.mail.internet.MimeMessage;
  */
 
 public class MailManager {
-    /** request libs activation.jar
+    /** request libs
+     * activation.jar
      * additionnal.jar
      * mail.jar
      */

@@ -83,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, SendEmailActivity.class);
                                         startActivity(intent);
                                         break;
+                                    case 6:
+                                        intent = new Intent(mContext, TabHostActivity.class);
+                                        startActivity(intent);
+                                        break;
 
                                     default:
                                         break;

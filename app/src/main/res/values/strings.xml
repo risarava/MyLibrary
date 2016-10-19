@@ -14,5 +14,6 @@
         <item>Facebook</item>
         <item>Retrofit github</item>
         <item>Send email</item>
+        <item>Fragment TabHost</item>
     </string-array>
 </resources>
