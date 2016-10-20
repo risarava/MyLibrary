@@ -15,5 +15,13 @@
         <item>Retrofit github</item>
         <item>Send email</item>
         <item>Fragment TabHost</item>
+        <item>Bottom tab</item>
     </string-array>
+
+    <!-- tabs -->
+    <string name="recents">Recents</string>
+    <string name="favorites">Favorites</string>
+    <string name="nearby">Nearby</string>
+    <string name="friends">Friends</string>
+    <string name="food">Food</string>
 </resources>

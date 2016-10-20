@@ -9,4 +9,9 @@
     <color name="grey_light">#e6e6e6</color>
     <color name="tab_grey">#7e7d7d</color>
     <color name="tab_blue">#0ab7a9</color>
+
+    <color name="brown_dark">#5D4037</color>
+    <color name="violet_dark">#7B1FA2</color>
+    <color name="blue_dark">#162068</color>
+    <color name="grey_dark">#595959</color>
 </resources>

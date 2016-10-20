@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/myCoordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/myScrollingContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        app:bb_behavior="shifting|underNavbar|shy"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_inActiveTabColor="@color/tab_blue"
+        app:bb_activeTabColor="@color/tab_blue"
+        app:bb_titleTypeFace="fonts/GreatVibes-Regular.otf"
+        app:bb_titleTextAppearance="@style/CustomTitleTextAppearance"/>
+
+</android.support.design.widget.CoordinatorLayout>

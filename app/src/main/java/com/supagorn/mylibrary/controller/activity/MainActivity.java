@@ -87,6 +87,10 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, TabHostActivity.class);
                                         startActivity(intent);
                                         break;
+                                    case 7:
+                                        intent = new Intent(mContext, BottomTabsActivity.class);
+                                        startActivity(intent);
+                                        break;
 
                                     default:
                                         break;
