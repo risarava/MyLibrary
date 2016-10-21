@@ -14,4 +14,9 @@
     <color name="violet_dark">#7B1FA2</color>
     <color name="blue_dark">#162068</color>
     <color name="grey_dark">#595959</color>
+
+    <color name="list_divider">#272727</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#0ab7a9</color>
+    <color name="list_text_color">#ffffff</color>
 </resources>

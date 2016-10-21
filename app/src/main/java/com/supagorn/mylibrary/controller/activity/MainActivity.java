@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             libraryArrayList.add(library);
         }
 
-        adapter = new RecyclerViewAdapter(libraryArrayList);
+        adapter = new RecyclerViewAdapter(this, libraryArrayList);
         recyclerView.setAdapter(adapter);
         recyclerView.addOnItemTouchListener(
                 new RecyclerViewAdapter.RecyclerItemClickListener(mContext, recyclerView,
@@ -89,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
                                         break;
                                     case 7:
                                         intent = new Intent(mContext, BottomTabsActivity.class);
+                                        startActivity(intent);
+                                        break;
+                                    case 8:
+                                        intent = new Intent(mContext, DrawerLayoutActivity.class);
                                         startActivity(intent);
                                         break;
 

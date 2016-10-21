@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.supagorn.mylibrary.R;
@@ -19,13 +20,15 @@ import com.supagorn.mylibrary.model.Library;
 import java.util.ArrayList;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    private Context mContext;
     private ArrayList<Library> libraryArrayList = new ArrayList<Library>();
 
     public RecyclerViewAdapter() {
     }
 
-    public RecyclerViewAdapter(ArrayList<Library> libraryArrayList) {
+    public RecyclerViewAdapter(Context context, ArrayList<Library> libraryArrayList) {
         this.libraryArrayList = libraryArrayList;
+        this.mContext = context;
     }
 
     @Override
@@ -39,6 +42,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         ((RecyclerViewHolders) holder).txtTitle.setText(libraryArrayList.get(position).getTitle());
         ((RecyclerViewHolders) holder).imgLibrary.setImageResource(libraryArrayList.get(position).getImage());
         holder.itemView.setTag(position);
+        if (position %2 == 0) {
+            ((RecyclerViewHolders) holder).background.setBackgroundColor(mContext.getResources().getColor(R.color.white));
+        } else {
+            ((RecyclerViewHolders) holder).background.setBackgroundColor(mContext.getResources().getColor(R.color.grey_light));
+        }
         // holder.itemView.setOnClickListener(this);
     }
 
@@ -61,11 +69,13 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
 
         public ImageView imgLibrary;
         public TextView txtTitle;
+        public RelativeLayout background;
 
         public RecyclerViewHolders(View itemView) {
             super(itemView);
             imgLibrary = (ImageView) itemView.findViewById(R.id.library_imageeview);
             txtTitle = (TextView) itemView.findViewById(R.id.title_textview);
+            background = (RelativeLayout) itemView.findViewById(R.id.background_relativelayout);
         }
     }
 

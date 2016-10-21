@@ -11,8 +11,11 @@
         android:orientation="vertical">
 
         <RelativeLayout
+            android:id="@+id/background_relativelayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
             android:background="@color/white">
 
             <TextView
@@ -28,7 +31,7 @@
             <ImageView
                 android:id="@+id/library_imageeview"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop" />
 
