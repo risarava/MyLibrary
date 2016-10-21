@@ -60,7 +60,7 @@
         <activity
             android:name=".controller.activity.DrawerLayoutActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar.popup" />
 
         <activity android:name="com.facebook.FacebookActivity"
             android:label="@string/app_name" />
