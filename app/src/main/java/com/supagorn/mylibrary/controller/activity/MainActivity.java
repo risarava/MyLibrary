@@ -56,53 +56,46 @@ public class MainActivity extends AppCompatActivity {
                         new RecyclerViewAdapter.RecyclerItemClickListener.OnItemClickListener() {
                             @Override
                             public void onItemClick(View view, int position) {
-                                // int position = (Integer) rv.getTag();
-                                Intent intent;
+                                Class classz = null;
                                 switch (position) {
                                     case 0:
                                         MyToast myToast = new MyToast();
                                         myToast.showToast(mContext, "Preview toast");
                                         break;
                                     case 1:
-                                        intent = new Intent(mContext, SampleAlertDialog.class);
-                                        startActivity(intent);
+                                        classz = SampleAlertDialog.class;
                                         break;
                                     case 2:
-                                        intent = new Intent(mContext, SelectImageGallery.class);
-                                        startActivity(intent);
+                                        classz = SelectImageGallery.class;
                                         break;
                                     case 3:
-                                        intent = new Intent(mContext, FacebookActivity.class);
-                                        startActivity(intent);
+                                        classz = FacebookActivity.class;
                                         break;
                                     case 4:
-                                        intent = new Intent(mContext, RetrofitActivity.class);
-                                        startActivity(intent);
+                                        classz = RetrofitActivity.class;
                                         break;
                                     case 5:
-                                        intent = new Intent(mContext, SendEmailActivity.class);
-                                        startActivity(intent);
+                                        classz = SendEmailActivity.class;
                                         break;
                                     case 6:
-                                        intent = new Intent(mContext, TabHostActivity.class);
-                                        startActivity(intent);
+                                        classz = TabHostActivity.class;
                                         break;
                                     case 7:
-                                        intent = new Intent(mContext, BottomTabsActivity.class);
-                                        startActivity(intent);
+                                        classz = BottomTabsActivity.class;
                                         break;
                                     case 8:
-                                        intent = new Intent(mContext, DrawerLayoutActivity.class);
-                                        startActivity(intent);
+                                        classz = DrawerLayoutActivity.class;
                                         break;
                                     case 9:
-                                        intent = new Intent(mContext, ImagePitchZoomActivity.class);
-                                        startActivity(intent);
+                                        classz = ImagePitchZoomActivity.class;
                                         break;
 
                                     default:
                                         break;
                                 }
+
+                                Intent intent = new Intent(mContext, classz);
+                                startActivity(intent);
                             }
 
                             @Override
