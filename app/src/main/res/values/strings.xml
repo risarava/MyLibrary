@@ -17,6 +17,7 @@
         <item>Fragment TabHost</item>
         <item>Bottom tab</item>
         <item>Drawer layout</item>
+        <item>Image pitch zoom with TouchImageView</item>
     </string-array>
 
     <!-- tabs -->

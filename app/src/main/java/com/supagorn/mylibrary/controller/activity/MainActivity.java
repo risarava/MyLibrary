@@ -95,6 +95,10 @@ public class MainActivity extends AppCompatActivity {
                                         intent = new Intent(mContext, DrawerLayoutActivity.class);
                                         startActivity(intent);
                                         break;
+                                    case 9:
+                                        intent = new Intent(mContext, ImagePitchZoomActivity.class);
+                                        startActivity(intent);
+                                        break;
 
                                     default:
                                         break;
