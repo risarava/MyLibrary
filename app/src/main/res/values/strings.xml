@@ -18,6 +18,7 @@
         <item>Bottom tab</item>
         <item>Drawer layout</item>
         <item>Image pitch zoom with TouchImageView</item>
+        <item>ViewPager and Indicator</item>
     </string-array>
 
     <!-- tabs -->

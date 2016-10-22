@@ -89,6 +89,9 @@ public class MainActivity extends AppCompatActivity {
                                     case 9:
                                         classz = ImagePitchZoomActivity.class;
                                         break;
+                                    case 10:
+                                        classz = ViewPagerAndIndicatorActivity.class;
+                                        break;
 
                                     default:
                                         break;
